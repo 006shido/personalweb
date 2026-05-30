@@ -1,5 +1,5 @@
 <p align="centre">
-  Personal website, Not fully done! updates upcoming
+  Personal website, Not fully done! updates upcoming!
   <br>
   https://006shido.github.io/Projects/
   <a href="https://github.com/006shido">
