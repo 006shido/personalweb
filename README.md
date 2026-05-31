@@ -1,5 +1,6 @@
 # Personal Portfolio Website
 <br>
+
 # Overview
 This is my personal portfolio website built using HTML and CSS. It serves as a digital introduction to who I am, my interests, skills etc.
 <br>
@@ -10,6 +11,7 @@ The website features a modern responsive design with social media integration, p
 # Project Status
 🚧 Work in Progress
 This portfolio is currently under development. Additional sections such as Services, Skills, Education, Experience, and Contact will be expanded in future updates.
+<br>
 <br>
   
 # License
