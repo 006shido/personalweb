@@ -1,6 +1,4 @@
 # Personal Portfolio Website
-<br>
-
 # Overview
 This is my personal portfolio website built using HTML and CSS. It serves as a digital introduction to who I am, my interests, skills etc.
 <br>
