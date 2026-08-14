@@ -1,46 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
-    
+
+    <title>Anoop | Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <a href="#" class="logo">Welcome</a>
 
-        <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+    <!-- HEADER -->
+    <header class="header">
 
+        <a href="#home" class="logo">Welcome</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
+
     </header>
-    
-    <section class="home">
-        <div class="home-img">
-            <img src="main.jpg" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Nǐ hǎo, My Name is <span>Anoop</span></h1>
-            <h3 class="typing_text">I'm a Tech Enthusiast<span></span></h3>
-            <p>Aim to be a Certified ethical Hacker. Learning through hands-on practice and real-world threat Documentaries. Building skills to protect systems and out smart attackers</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/06shido?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/006shido"><i class="fa-brands fa-github"></i></a>
-                <a href="mailto:006shido@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://www.instagram.com/06shido?igsh=MW01am9tcnNjdm1ybA=="><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/qr/SNZNQFFUJGSCL1"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+    <main>
+
+        <!-- HOME -->
+        <section class="home" id="home">
+
+            <div class="home-img">
+                <img src="main.jpg" alt="Anoop profile picture">
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhVYvXWKuKKX71QdXal3_-xDGCkcQjOdcA7ze9o6uenyMUkw/viewform?usp=header" class="btn">Write Anonymously</a>
-        </div>    
-    </section>
-    
+
+            <div class="home-content">
+
+                <p class="greeting">
+                    Hello World 👋
+                </p>
+
+                <h1>
+                    Nǐ hǎo, I'm <span>Anoop</span>
+                </h1>
+
+                <h3 class="typing-text">
+                    I'm a <span id="typing"></span>
+                </h3>
+
+                <p class="description">
+                    A tech enthusiast aiming to become a Certified Ethical Hacker.
+                    I learn through hands-on practice, cybersecurity research,
+                    and real-world threat documentaries while building skills
+                    to protect systems and outsmart attackers.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="https://www.linkedin.com/in/06shido"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/006shido"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="mailto:006shido@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/06shido"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://wa.me/qr/SNZNQFFUJGSCL1"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhVYvXWKuKKX71QdXal3_-xDGCkcQjOdcA7ze9o6uenyMUkw/viewform?usp=header"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn">
+                    Write Anonymously
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="placeholder-section" id="services">
+
+            <div class="section-content">
+
+                <p class="section-label">WHAT I DO</p>
+
+                <h2>
+                    My <span>Services</span>
+                </h2>
+
+                <p>
+                    Cybersecurity, web development, scripting and technical
+                    projects focused on learning through practical experience.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="placeholder-section" id="skills">
+
+            <div class="section-content">
+
+                <p class="section-label">WHAT I KNOW</p>
+
+                <h2>
+                    My <span>Skills</span>
+                </h2>
+
+                <p>
+                    Python • C • Java • HTML • CSS • JavaScript • Linux •
+                    Git • GitHub • Networking • Cybersecurity
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section class="placeholder-section" id="education">
+
+            <div class="section-content">
+
+                <p class="section-label">MY JOURNEY</p>
+
+                <h2>
+                    My <span>Education</span>
+                </h2>
+
+                <p>
+                    Education, certifications, courses and other learning
+                    experiences will be displayed here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section class="placeholder-section" id="experience">
+
+            <div class="section-content">
+
+                <p class="section-label">WHAT I'VE BUILT</p>
+
+                <h2>
+                    My <span>Experience</span>
+                </h2>
+
+                <p>
+                    Projects, internships, cybersecurity experiments and
+                    practical experience will be displayed here.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="placeholder-section" id="contact">
+
+            <div class="section-content">
+
+                <p class="section-label">GET IN TOUCH</p>
+
+                <h2>
+                    Contact <span>Me</span>
+                </h2>
+
+                <p>
+                    Feel free to connect with me through email or any of
+                    my social platforms.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
