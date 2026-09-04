@@ -315,9 +315,11 @@ section {
 
     align-items: center;
 
-    gap: 1.2rem;
+    justify-content: center;
 
-    margin: 2rem 0;
+    gap: 1.5rem;
+
+    margin: 3rem 0 1rem;
 }
 
 .social-icons a {
